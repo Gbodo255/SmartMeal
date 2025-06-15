@@ -1,12 +1,37 @@
-# React + Vite
+# 🍽️ Plateforme de Commande Automatique pour Restaurants
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une solution web interactive permettant aux clients de restaurants de consulter le menu, personnaliser leur commande et la transmettre directement en cuisine via un QR code – sans intervention humaine directe.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧾 Description
 
-## Expanding the ESLint configuration
+Ce projet vise à digitaliser la prise de commande dans les restaurants grâce à une interface mobile intuitive accessible via un QR code placé sur chaque table. Les clients peuvent :
+- Visualiser le menu par catégories (entrées, plats, desserts, boissons)
+- Personnaliser leurs plats (ingrédients, cuisson, suppléments)
+- Envoyer leur commande directement en cuisine ou au serveur
+- Payer en ligne (optionnel)
+- Appeler un serveur si besoin
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Du côté des restaurateurs, un back-office sécurisé permet de gérer le menu, suivre les commandes en temps réel et analyser les performances.
+
+---
+
+## 🚀 Fonctionnalités principales
+
+- 📱 Scan QR code pour accéder au menu
+- 🍽️ Menu dynamique avec images, descriptions, allergènes, prix
+- 🛒 Système de commande personnalisée
+- 📊 Tableau de bord pour les restaurateurs
+- 🔄 Historique & statistiques des commandes
+- 🌐 Interface multilingue (FR/EN)
+- 💳 Paiement en ligne intégré (optionnel)
+- 🔔 Fonction “Appel serveur”
+
+---
+
+## 🛠️ Technologies utilisées
+
+| Frontend          | Backend          | Base de données       | Autres outils                                                  |
+|-------------------|------------------|-----------------------|----------------------------------------------------------------|
+| React.js / Vue.js | Node.js / Django | PostgreSQL / Firebase | QR Code API (qr-code-styling), Stripe (paiement), Tailwind CSS |
